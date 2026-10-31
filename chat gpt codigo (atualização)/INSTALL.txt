@@ -1,0 +1,18 @@
+PROMPT2RIG BRIDGE — INSTALAÇÃO
+
+1. Baixe a pasta "prompt2rig_blender" deste diretório.
+2. Instale no Blender em Edit > Preferences > Add-ons > Install from Disk.
+   Alternativamente, coloque a pasta do addon no diretório scripts/addons.
+3. Ative "Prompt2Rig Bridge".
+4. Na Viewport 3D, pressione N e abra a aba Prompt2Rig.
+5. Configure a pasta raiz do Prompt2Rig original: deve conter server.mjs.
+6. Clique Iniciar, aguarde, clique Verificar servidor e depois Abrir estúdio.
+7. Faça o processamento de vídeo local no frontend original e exporte o take GLB.
+8. No Blender, clique Importar último take.
+
+OBSERVAÇÕES
+- Node.js 18+ necessário.
+- Porta padrão 5177.
+- Preview 3D original permanece no navegador; não está embutido no painel Blender.
+- O pipeline original de vídeo local não exige FAL_KEY.
+- Log do servidor iniciado pelo addon: /tmp/prompt2rig-blender-server.log
